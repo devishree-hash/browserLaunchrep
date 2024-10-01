@@ -40,4 +40,7 @@ public class BrowserLaunch {
 	   Thread.sleep(25000);
 	    }
     }
+	public static void tc01(){
+		System.out.println("qa works fine");
+	}
 }
