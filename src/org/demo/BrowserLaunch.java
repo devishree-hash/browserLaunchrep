@@ -8,6 +8,10 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 public class BrowserLaunch {
+	private void tc02() {
+		System.out.println("dev works fine");
+
+	}
 	public static void main(String[] args) throws IOException, InterruptedException, AWTException  {
 	System.setProperty("webdriver.chrome.driver","C:\\Users\\hp\\eclipse-workspace\\BrowserLaunch\\Driver\\chromedriver.exe");
 	 WebDriver driver=new ChromeDriver();
